@@ -191,7 +191,7 @@ main section{
 .resume-container{
     display: flex;
     justify-content: space-between;
-    gap: 50px;
+    gap: 150px;
 }
 .section-title{
     text-align: center;
@@ -207,3 +207,36 @@ main section{
     text-align: center;
     margin-top: 50px;
 }
+/* Footer Section */
+footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 230px;
+    margin-top: 100px;
+    gap: 100px;
+
+}
+  .footer-column{
+    width50%;
+  }
+  footer input[type="text"]{
+    width: 100%;
+    padding: 18px 32px;
+    border-radius: 5px;
+    border: 1px solid #C4C4C4;
+    margin-bottom: 24px;
+  }
+   footer input[type="email"]{
+    width: 100%;
+    padding: 18px 32px;
+    border-radius: 5px;
+    border: 1px solid #C4C4C4;
+    margin-bottom: 24px;
+   }
+    footer input[type="text-area"]{
+    width: 100%;
+      padding: 18px 32px;
+    border-radius: 5px;
+    border: 1px solid #C4C4C4;
+    margin-bottom: 24px;
+    }
