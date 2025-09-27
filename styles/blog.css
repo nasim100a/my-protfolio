@@ -187,3 +187,23 @@ main section{
      color: #474747;
     
 }
+/*Resume Section*/
+.resume-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.section-title{
+    text-align: center;
+}
+.experience-sub-title{
+    color:#474747;
+    margin-bottom: 50px;
+}
+.experience-description{
+    color: #474747;
+}
+.btn-align{
+    text-align: center;
+    margin-top: 50px;
+}
